@@ -13,8 +13,8 @@ This is a web application. This lets the user know about all the tests that are 
 A Eagle node is test/monitoring code deployed to provide insights about a small aspect of the system. The eagle node could be deployed as a web service or a serverless function  (AWS lambda or Azure Function, etc). Or it could be part of your productive service as well. When a Eagle Node is introduced (deployed) in the system, it is registered with the Eagle Dashboard. The Eagle node and Eagle Dashboard communicated with each other using the standardized way called as Eagle Communication Contract.
 
 ### Eagle Communication Contract
-This is a standardization of communication between Eagle Node and Eagle Dashboard. The communication between Dashboard and Node could in using different technologies such as HTTP or AMQP or anthing else. So there are could be different Eagle Communication Contracts. Currently the communication over HTTP is defined and this is called "WonderTools.Eagle.Http.Contract".
+This is a standardization of communication between Eagle Node and Eagle Dashboard. The communication between Dashboard and Node could in using different technologies such as HTTP or AMQP or anthing else. So there are could be different Eagle Communication Contracts. Currently the communication over HTTP is defined and this is called "WonderTools.Eagle.Http.Contract". These communication contracts are designed to evolve over time to meet the demands, so they are versioned. While implementing Eagle, we should ensure that all the dashboards and all the nodes talk using the same version of the same communication contract.
 
 #### WonderTools.Eagle.Http.Contract
-The communication contract to communicated over http between dashboard and nodes
+The communication contract to communicated over http between dashboard and nodes. More details are provided in this (TBD).
 
