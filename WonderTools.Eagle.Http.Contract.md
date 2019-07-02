@@ -93,3 +93,7 @@ The array of test suites that are available in the node. Each test suite has id,
 
 * __testResults__
 An array of test results. Each test result has id, result, startTime, endTime and durationInMs properties
+
+### Response to test trigger (Full test report)
+The node responds to the test trigger once the testing is complete. The payload is same as the case of Posting the partial results by the Node. The only difference is all the test results are available in this case.
+
