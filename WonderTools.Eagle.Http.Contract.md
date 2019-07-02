@@ -11,3 +11,20 @@ The communication has 3 parts to it.
 2. Posting the partial test report by the Node
 3. Responding to the test trigger request with the full test report by the Node.
 
+
+### Triggering the test by the Dashboard
+1. Initiated by Dashboard
+2. Handled by Node
+3. URL: The URL of the node registed with the dashboard
+4. Method: POST
+5. Payload is as shown below
+{
+  "nodeName": "name of the node",
+  "id": "testid",
+  "callBackUrl": "http://dashboard-callback.url",
+  "requestId": "request id",
+  "nodeSecret": "node secret"
+}
+
+
+
