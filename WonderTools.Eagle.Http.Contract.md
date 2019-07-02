@@ -6,3 +6,8 @@ The below picture gives an overview of the communication between Dashboard and t
 
 ![WonderTools Eagle Http Contract](https://raw.githubusercontent.com/WonderTools/Eagle.Documentation/master/http-contract.JPG)
 
+The communication has 3 parts to it.
+1. Triggering the test by the Dashboard
+2. Posting the partial test report by the Node
+3. Responding to the test trigger request with the full test report by the Node.
+
