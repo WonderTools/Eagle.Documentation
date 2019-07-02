@@ -18,3 +18,5 @@ This is a standardization of communication between Eagle Node and Eagle Dashboar
 #### WonderTools.Eagle.Http.Contract
 The communication contract to communicated over http between dashboard and nodes. More details are provided in this (TBD).
 
+## Implementing Eagle System
+Implementing a Eagle System involes deploying a Eagle Dashboard, and at least one Eagle node. There are libraries that are available facilitate in the implementation of Eagle system. These libraries are developed such that when installed in  your application, you need to focus on only the business aspect of the testing. The list of packages are available in this (TBD)
