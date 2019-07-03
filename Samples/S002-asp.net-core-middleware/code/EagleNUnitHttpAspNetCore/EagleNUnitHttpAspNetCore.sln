@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EagleNUnitHttpAspNetCore", "EagleNUnitHttpAspNetCore\EagleNUnitHttpAspNetCore.csproj", "{BCA3FDCD-F01C-4E1F-A071-255483F8582D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{7884A462-16AD-4D06-8499-599CB6216735}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCA3FDCD-F01C-4E1F-A071-255483F8582D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA3FDCD-F01C-4E1F-A071-255483F8582D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA3FDCD-F01C-4E1F-A071-255483F8582D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA3FDCD-F01C-4E1F-A071-255483F8582D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7884A462-16AD-4D06-8499-599CB6216735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7884A462-16AD-4D06-8499-599CB6216735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7884A462-16AD-4D06-8499-599CB6216735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7884A462-16AD-4D06-8499-599CB6216735}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {681C8E38-56A2-43E2-A5CD-69E255A648D7}
+	EndGlobalSection
+EndGlobal
