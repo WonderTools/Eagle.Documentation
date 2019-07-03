@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EagleAzureFunctionNUnitHttp", "EagleAzureFunctionNunitHttp\EagleAzureFunctionNUnitHttp.csproj", "{C49D5D4F-91C0-4BEB-8172-8840B4FDAF90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{8CD9CD96-C95B-41C9-8D9D-FB577B638E15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C49D5D4F-91C0-4BEB-8172-8840B4FDAF90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C49D5D4F-91C0-4BEB-8172-8840B4FDAF90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C49D5D4F-91C0-4BEB-8172-8840B4FDAF90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C49D5D4F-91C0-4BEB-8172-8840B4FDAF90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CD9CD96-C95B-41C9-8D9D-FB577B638E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD9CD96-C95B-41C9-8D9D-FB577B638E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD9CD96-C95B-41C9-8D9D-FB577B638E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD9CD96-C95B-41C9-8D9D-FB577B638E15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {263765E0-7117-4AC8-AF59-660664FFBED6}
+	EndGlobalSection
+EndGlobal
