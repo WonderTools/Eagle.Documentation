@@ -20,3 +20,4 @@
 }
 ```
 7. The sample code could be downloaded [here](https://github.com/WonderTools/Eagle.Documentation/raw/master/Samples/S001-asp.net-core-azure-functions/code/EagleAzureFunctionNunitHttp.zip)
+8. The application is tested in .net core version 2.1
