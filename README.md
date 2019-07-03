@@ -9,10 +9,10 @@ Eagle is a system to test and monitor your web applications or services. Monitor
 ![Block Diagram of Eagle](https://raw.githubusercontent.com/WonderTools/Eagle.Documentation/master/block-diagram.JPG)
 
 ### Eagle Dashboard
-This is a web application. This lets the user know about all the tests that are available in the eco system. It also has a mechanism of scheduling a single test or a collection of tests organized as test suite.
+This is a web application. This lets the user know about all the tests that are available in the eco system. It also has a mechanism of scheduling a single test or a collection of tests organized as test suite. Information such as execution status and history of tests are generally provided by the dashboard.
 
 ### Eagle Node
-A Eagle node is test/monitoring code deployed to provide insights about a small aspect of the system. The eagle node could be deployed as a web service or a serverless function  (AWS lambda or Azure Function, etc). Or it could be part of your productive service as well. When a Eagle Node is introduced (deployed) in the system, it is registered with the Eagle Dashboard. The Eagle node and Eagle Dashboard communicated with each other using the standardized way called as Eagle Communication Contract.
+A Eagle node is test/monitoring code deployed to provide insights about a small aspect of the system. The eagle node could be deployed as a web service or a serverless function  (AWS lambda or Azure Function, etc). Or it could be deployed as a part of your productive service as well. When a Eagle Node is introduced (deployed) in the system, it is registered with the Eagle Dashboard. The Eagle node and Eagle Dashboard communicates with each other using the standardized way called as Eagle Communication Contract.
 
 ### Eagle Communication Contract
 This is a standardization of communication between Eagle Node and Eagle Dashboard. The communication between Dashboard and Node could in using different technologies such as HTTP or AMQP or anthing else. So there are could be different Eagle Communication Contracts. Currently the communication over HTTP is defined and this is called "WonderTools.Eagle.Http.Contract". These communication contracts are designed to evolve over time to meet the demands, so they are versioned. While implementing Eagle, we should ensure that all the dashboards and all the nodes talk using the same version of the same communication contract.
