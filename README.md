@@ -1,10 +1,10 @@
 # Eagle
 
 ## What is Eagle?
-Eagle is a system designed to provide a high level view of your web services. It's designed to provide you quick information what apects of your distributed computing system is working and not working.
+Eagle is a system designed to provide a high level view of tests that run against your web services. It's designed to provide you quick information what parts of your system are working and not working.
 
 ## Eagle Concepts
-Eagle is a system that is tests and monitor a distributed cloud computing system. Eagle by itself is a distributed system. Its made up of a dashboard and variable number of nodes.
+Eagle is a system to test and monitor your web applications or services. Monitoring tests for a monolithic application could be easy, but when the system gets distributed, monitoring test become complicated. Eagle was designed to solve this problem. Eagle by itself is a distributed system. Its made up of a dashboard and variable number of nodes.
 
 ![Block Diagram of Eagle](https://raw.githubusercontent.com/WonderTools/Eagle.Documentation/master/block-diagram.JPG)
 
